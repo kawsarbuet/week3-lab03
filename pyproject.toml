@@ -1,0 +1,19 @@
+[project]
+name = "fxsummary"
+version = "0.1.0"
+description = "FX rate summary package refactored from Lab 02"
+authors = [
+  { name = "Md Kawsarul Islam" }
+]
+requires-python = ">=3.11"
+dependencies = [
+  "requests"
+]
+
+[project.scripts]
+fxsummary = "fxsummary.main:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
