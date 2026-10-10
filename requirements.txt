@@ -26,3 +26,13 @@ pip freeze > requirements.txt
 
 7. Install your package
 pip install -e .
+
+##Testing
+
+#Open Anaconda Prompt and go to your folder.(Example: C:\Users\kawsa\week3-lab03\tests) then run below commands
+
+Run them with:
+
+pip install pytest ///run only if pytest is not installed
+
+pytest
