@@ -141,6 +141,7 @@ then run below commands
 
 Run them with:
 
+pip install pytest   ///run only if pytest is not installed
 ```
 pytest
 ```
