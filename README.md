@@ -66,6 +66,8 @@ week3-lab03/
 ### **Setup
 1. Create and activate Conda environment**
 
+#Open Anaconda Prompt and go to your folder.(Example: C:\Users\kawsa\week3-lab03\)
+then run below commands
 ```
 conda env create -f environment.yml
 conda activate fxsummary
@@ -134,6 +136,8 @@ This separation improves readability and testability.
 ## **Testing**
 
 Tests are located in the `tests/` folder.
+#Open Anaconda Prompt and go to your folder.(Example: C:\Users\kawsa\week3-lab03\tests)
+then run below commands
 
 Run them with:
 
