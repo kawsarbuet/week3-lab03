@@ -1,5 +1,14 @@
-certifi==2026.7.22
-charset-normalizer==3.5.2
-idna==3.20
-requests==2.34.2
-urllib3==2.8.0
+## Requirements to Create Environment and Run the Program:
+# Python >= 3.10 recommended
+# Pure standard library dependencies only
+# stdlib: input, int, .isdigit()
+
+#Anaconda Prompt
+cd path/to/your/folder (Example: cd C:\Users\kawsa\week3-lab03)
+conda --version (If output is conda 26.5.3 or like this> run below codes)
+
+conda env create -f environment.yml 
+conda activate fxsummary 
+pip install requests 
+pip freeze > requirements.txt 
+pip install -e .
