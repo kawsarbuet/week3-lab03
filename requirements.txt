@@ -1,14 +1,28 @@
-## Requirements to Create Environment and Run the Program:
-# Python >= 3.10 recommended
-# Pure standard library dependencies only
-# stdlib: input, int, .isdigit()
+## Python Requirements:
+Python >= 3.11 (Lab 03 uses Conda environment.yml to pin this)
 
-#Anaconda Prompt
+Only standard library + requests package
+
+No other pip dependencies
+
+## Steps to Create and Reproduce the Environment
+1. Open Anaconda Prompt
 cd path/to/your/folder (Example: cd C:\Users\kawsa\week3-lab03)
+
+2. Verify Conda installation
 conda --version (If output is conda 26.5.3 or like this> run below codes)
 
+3. Create the Conda environment
 conda env create -f environment.yml 
+
+4. Activate the environment
 conda activate fxsummary 
+
+5. Install pip dependency
 pip install requests 
+
+6. Generate requirements.txt
 pip freeze > requirements.txt 
+
+7. Install your package
 pip install -e .
